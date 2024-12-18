@@ -3,7 +3,7 @@ import { ParallaxScroll } from "../ui/parallax-scroll";
 
 export function ParallaxScrollSection() {
   return (
-    <div className="relative">
+    <div className="relative max-w-7xl mx-auto">
       <ParallaxScroll images={images} />;
     </div>
   );

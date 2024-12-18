@@ -60,7 +60,7 @@ export const TextGenerateEffect = ({
         className
       )}
     >
-      <div className="mt-4 container mx-auto">
+      <div className="mt-4 max-w-7xl mx-auto">
         <div className="text-7xl leading-normal">{renderWords()}</div>
       </div>
     </div>
