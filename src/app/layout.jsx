@@ -25,11 +25,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${obviouslyVariable.variable} ${inter.className} bg-purple-100 text-neutral-800 antialiased relative`}
       >
-        <div className="fixed inset-0 pointer-events-none z-[-50]">
+        <div className="fixed inset-0 pointer-events-none z-[-1]">
           {[1, 2, 3, 4, 5].map((index) => (
             <div
               key={index}
-              className="absolute top-0 bottom-0 w-px bg-purple-700/10"
+              className="absolute top-0 bottom-0 w-px bg-purple-700/20"
               style={{ left: `${(index * 100) / 6}%` }}
             />
           ))}
